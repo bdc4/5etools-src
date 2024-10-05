@@ -1,6 +1,110 @@
 {
 	"adventure": [
 		{
+			"name": "My Custom Adventure",
+			"id": "MCA",
+			"source": "LMoP",
+			"group": "supplement",
+			"cover": {
+				"type": "internal",
+				"path": "covers/LMoP.webp"
+			},
+			"published": "2014-07-15",
+			"author": "Wizards RPG Team",
+			"storyline": "Starter Set",
+			"level": {
+				"start": 1,
+				"end": 5
+			},
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"Running the Adventure",
+						"Background",
+						"Overview",
+						"Adventure Hook",
+						"The Forgotten Realms"
+					]
+				},
+				{
+					"name": "Goblin Arrows",
+					"headers": [
+						"Goblin Ambush",
+						"Cragmaw Hideout"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "Phandalin",
+					"headers": [
+						"Encounters in Phandalin",
+						"Important NPCs",
+						"Town Description",
+						{
+							"index": 1,
+							"header": "Redbrand Ruffians"
+						},
+						"Redbrand Hideout"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The Spider's Web",
+					"headers": [
+						"Triboar Trail",
+						"Conyberry and Agatha's Lair",
+						"Old Owl Well",
+						"Ruins of Thundertree",
+						"Wyvern Tor",
+						"Cragmaw Castle"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Wave Echo Cave",
+					"headers": [
+						"Character Level",
+						"Experience Point Awards",
+						"Wandering Monsters",
+						"General Features",
+						"Keyed Encounters",
+						"Conclusion"
+					],
+					"ordinal": {
+						"type": "part",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Magic Items",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "A"
+					}
+				},
+				{
+					"name": "Monsters",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "B"
+					}
+				},
+				{
+					"name": "Credits"
+				}
+			]
+		},
+		{
 			"name": "Lost Mine of Phandelver",
 			"id": "LMoP",
 			"source": "LMoP",
